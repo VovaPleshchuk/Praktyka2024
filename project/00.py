@@ -58,8 +58,8 @@ def gameLoop():
     while not game_over:
 
         while game_close == True:
-            dis.fill(white)
-            message("Ти програв! Натисни Q-Вийти або C-Грати знову", red)
+            dis.fill(red)
+            message("Ти програв! Натисни Q-Вийти або C-Грати знову", black)
             pygame.display.update()
 
             for event in pygame.event.get():
